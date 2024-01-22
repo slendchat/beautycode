@@ -95,3 +95,4 @@ puts("kjhsdhfsdjklhfsdkljhf sdhjfg sdlkjhsdfkl \
 - Logicaly grouped variables can be created in one line `int dfs; int dfsa; int adfs` 
 - For criticall exit use `panic()`
 - write verbose() function
+!> source https://youtu.be/r5z1rLZueTA?si=LSdtrqm1BxZlipIX
