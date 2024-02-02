@@ -16,18 +16,18 @@ It is okay to write big names for variables if this helps to make code clear and
 ```C++
 unsigned int calculate_sum_of_two_integers(int first_value, int second_value)
 {
-    int result_of_the_sum;
-    result_of_the_sum = first_value + second_value;
-    return result_of_the_sum;
+  int result_of_the_sum;
+  result_of_the_sum = first_value + second_value;
+  return result_of_the_sum;
 }
 ```
 <b>Write this:</b>
 ```C++
 uint32_t sum(int val1, int val2)
 {
-    int res;
-    res = val1 + val2;
-    return res;
+  int res;
+  res = val1 + val2;
+  return res;
 }
 ```
 
@@ -36,15 +36,15 @@ Just look at the example <br>
 ```C++
 int func(int val1, int val2)
 {
-    if(val1 < val2){
-        return val1;
-    }
-    if(val1 > val2){
-        return val2;
-    }
-    if(val1 == val2){
-        return 0;
-    }
+  if(val1 < val2){
+    return val1;
+  }
+  if(val1 > val2){
+    return val2;
+  }
+  if(val1 == val2){
+    return 0;
+  }
 }
 ```
 
@@ -61,10 +61,10 @@ Describe all variables in functions in the beggining of the function before usin
 ```C++
 u32 func()
 {
-    u32 calc, res;
-    u16 ipopt;
-    u8 byte;
-    ...
+  u32 calc, res;
+  u16 ipopt;
+  u8 byte;
+  ...
 }
 ```
 
@@ -95,5 +95,4 @@ puts("kjhsdhfsdjklhfsdkljhf sdhjfg sdlkjhsdfkl \
 - Logicaly grouped variables can be created in one line `int dfs; int dfsa; int adfs` 
 - For criticall exit use `panic()`
 - write verbose() function
-  <hr>
-!---> source https://youtu.be/r5z1rLZueTA?si=LSdtrqm1BxZlipIX
+- TABs should be two spaces
