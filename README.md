@@ -91,7 +91,7 @@ puts("kjhsdhfsdjklhfsdkljhf sdhjfg sdlkjhsdfkl \
  jdfhgkldfjhgdflkj h");
 ```
 - Write macros exactly where they are used
-- If structer is used only in one function, create the structer inside it.
+- If structure is used only in one function, create the structer inside it.
 - Logicaly grouped variables can be created in one line `int dfs; int dfsa; int adfs` 
 - For criticall exit use `panic()`
 - write verbose() function
